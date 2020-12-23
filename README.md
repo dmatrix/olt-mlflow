@@ -4,7 +4,7 @@ This OLT has four modules. Each one is located in a separate directory with
 its respective README.md file and instructions how to follow the module.
 
 **Note**: For modules 1-3, you'll need [Databricks Community Edition](https://databricks.com/try-databricks). Please register for this
-before coming to class if you want to follow and do the labs.
+before coming to class if you want to do the exercises.
 
 1. [MLflow Tracking](./tracking/README.md)
 2. [MLFlow Projects](./projects/README.md)
