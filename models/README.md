@@ -48,7 +48,7 @@ About the MLflow Models module 3
 
 In this module 3, we will cover:
  * Concepts and motivation behind and Models 
- * Tour of the the MLflow Model API Documentation
+ * Tour of the MLflow Model API Documentation
  * How to create different model flavors
  * Pyfunc Model Flavor: what and how to use it
  * Use the MLflow UI on the DCE
@@ -98,7 +98,7 @@ We will walk through this during the session, but please sign up for [Databricks
 
 ![](../images/databricks_ce_loging.png)
 
-3. Create a ML Runtime 7.1+ with Spark 3.0.0 Cluster
+3. Create an ML Runtime 7.4 with Spark 3.0.1 Cluster
 
 ![](../images/databricks_ce_create_mlr.png)
 
