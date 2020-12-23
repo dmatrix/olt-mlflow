@@ -94,7 +94,7 @@ We will walk through this during the session, but please sign up for [Databricks
 
 ![](../images/databricks_ce_loging.png)
 
-3. Create a ML Runtime 7.1+ with Spark 3.0.0 Cluster
+3. Create an ML Runtime 7.4 with Spark 3.0.1 Cluster
 
 ![](../images/databricks_ce_create_mlr.png)
 
