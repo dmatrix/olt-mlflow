@@ -43,24 +43,24 @@ About the MLflow Model Registry module 4
 ----------------------------------------
 In this module 4, we will cover:
 
- * Concepts and motivation behind and Model Registry
- * Tour of the the Model Registry API Documentation
+ * Concepts and motivation behind a Model Registry
+ * Tour of the Model Registry API Documentation
  * Understand Model Registry Workflow
     * UI Workflow
     * API Workflow
  * How to create models and register them
  * How to use Pyfunc Model Flavor to load models from Model Registry
- * Use the Model Registry UI on Jupyter Lab (local host) or Google Colab
+ * Use the Model Registry UI on Jupyter Lab (local host)
 
 Prerequisites
 -------------
-* Python 3, pip, and conda pre installed
+* Python 3, pip or pip3, and conda preinstalled
 * Knowledge on how to use conda
-* Knowledge of Python 3 and programming in general
+* Knowledge of Python 3 and Python programming in general
 * Preferably a UNIX-based, fully-charged laptop with 8-16 GB, with a Chrome or Firefox browser
 * Familiarity with GitHub, git, and an account on Github
 * Some knowledge of Machine Learning concepts, libraries, and frameworks
- * scikit-Learn
+ * scikit-learn
  * pandas and Numpy
 * Loads of virtual laughter, curiosity, and a sense of humor ... :-)
 
@@ -73,13 +73,13 @@ session is over.
 
 ```git clone git@github.com:dmatrix/olt-mlflow.git or git clone https://github.com/dmatrix/olt-mlflow.git```
 
-Setup your conda environment for Jupyter Lab and MLflow
+Set up your conda environment for Jupyter Lab and MLflow
 -------------------------------------------------------
 
 1. `cd olt-mlflow`
 2. `conda create --name jupyter-mlflow`
 3. `conda activate jupyter-mlflow`
-4. `pip install -r jupyter_requirements.txt`
+4. `pip [pip3] install -r jupyter_requirements.txt`
 5. `python -m ipykernel install --user --name=mlflow`
 6. Run `mlflow --help` to check that MLflow's was correctly installed
 7. cd `cd model_registery/notebooks/` 
