@@ -81,7 +81,7 @@ Set up your conda environment for Jupyter Lab and MLflow
 3. `conda activate jupyter-mlflow`
 4. `pip [pip3] install -r jupyter_requirements.txt`
 5. `python -m ipykernel install --user --name=mlflow`
-6. Run `mlflow --help` to check that MLflow's was correctly installed
+6. Run `mlflow --help` or `mflow --version` to check that MLflow's was correctly installed
 7. cd `cd model_registery/notebooks/` 
 8. `jupyter lab &`
 9. Open the `run_weather_forecast.ipynb` notebook

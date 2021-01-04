@@ -1,4 +1,4 @@
-mlflow
+mlflow==1.12.1
 pandas
 numpy
 matplotlib
