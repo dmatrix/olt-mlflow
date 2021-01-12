@@ -2,6 +2,7 @@ mlflow==1.12.1
 pandas
 numpy
 matplotlib
+seaborn
 scikit-learn
 ipykernel
 jupyterlab
